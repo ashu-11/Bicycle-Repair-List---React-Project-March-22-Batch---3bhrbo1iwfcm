@@ -7,13 +7,14 @@ import { Provider } from "react-redux";
 
 // Store is defined with the reducer
 
-// const store = createStore(repairList,
-//   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-//   )
+const store = createStore(repairList,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  )
 
 ReactDOM.render(
-  // <Provider store = {store}>
-  <App />,
-  // </Provider>
+  // provide will avail your store to all the components
+  <Provider store = {store}>
+  <App />
+   </Provider>,
   document.getElementById("root")
 );
