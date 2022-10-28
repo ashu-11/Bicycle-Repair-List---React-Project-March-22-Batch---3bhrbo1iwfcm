@@ -1,12 +1,16 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.App {
+  width: 90%;
+  margin: auto;
+}
+span {
+  padding: 20px;
+}
+button {
+  margin: 10px;
+  border-radius: 10%;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(155, 41, 41);
+  color: white;
 }
